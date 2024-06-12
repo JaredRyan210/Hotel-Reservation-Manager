@@ -1,0 +1,109 @@
+Script started on Wed 04 May 2022 10:46:52 PM PDT
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[?1034h[ryan109@empress forHW8]$ g++ *.cpp
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[ryan109@empress forHW8]$ ./a.out
+After some thinking about what I wanted this app to be focused around, I thought of using it
+as a tool for my current workplace. I work for a Hyatt hotel here in Carlsbad. Hyatt is a massive hospitality corperation
+with hundreds of properties all aroud the world. Each property, like mine, has hundreds of employees with
+with a large selection of departments and positions. Though on a much smaller scale, this app poses
+as a tool giving the user the ability to view, search, add, or delete employees based off of their assigned key.
+The stored data includes the employees key, last name, department, and their golbal ID, which Hyatts actually use to identify
+their employess. **DISCLAIMER: THE GLOBAL ID'S ARE NOT REAL ID'S. THEY ARE JUST EXAMPLES**
+
+What is the input file? (.txt file)newoutASIN.txt
+0:[empty]
+1:[empty]
+2:[empty]
+3:[ 3 Cassell Bar_Tender 1169037 ]
+4:[empty]
+5:[empty]
+6:[empty]
+7:[empty]
+8:[ 8 Renelle Hostess 8930275 82 Diaz Concierge 4406929 ]
+9:[empty]
+10:[ 10 Gomez Director_of_Rooms 1112333 84 Fitzgerald Golf_Instructor 1339582 ]
+11:[empty]
+12:[ 12 Ryan Valet 1441468 ]
+13:[empty]
+14:[empty]
+15:[ 15 Zent Front_Office_Manager 9871236 ]
+16:[empty]
+17:[empty]
+18:[empty]
+19:[empty]
+20:[empty]
+21:[empty]
+22:[ 22 Shasta Waitress 4387124 ]
+23:[empty]
+24:[empty]
+25:[empty]
+26:[ 26 Jacobsen Waitress 9753842 ]
+27:[empty]
+28:[empty]
+29:[empty]
+30:[empty]
+31:[empty]
+32:[empty]
+33:[ 33 Yoshii Front_Desk 1234567 ]
+34:[empty]
+35:[empty]
+36:[empty]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[empty]
+1:[empty]
+2:[empty]
+3:[ 3 Cassell Bar_Tender 1169037 ]
+4:[empty]
+5:[empty]
+6:[empty]
+7:[empty]
+8:[ 8 Renelle Hostess 8930275 82 Diaz Concierge 4406929 ]
+9:[empty]
+10:[ 10 Gomez Director_of_Rooms 1112333 84 Fitzgerald Golf_Instructor 1339582 ]
+11:[empty]
+12:[ 12 Ryan Valet 1441468 ]
+13:[empty]
+14:[empty]
+15:[ 15 Zent Front_Office_Manager 9871236 ]
+16:[empty]
+17:[empty]
+18:[empty]
+19:[empty]
+20:[empty]
+21:[empty]
+22:[ 22 Shasta Waitress 4387124 ]
+23:[empty]
+24:[empty]
+25:[empty]
+26:[ 26 Jacobsen Waitress 9753842 ]
+27:[empty]
+28:[empty]
+29:[empty]
+30:[empty]
+31:[empty]
+32:[empty]
+33:[ 33 Yoshii Front_Desk 1234567 ]
+34:[empty]
+35:[empty]
+36:[empty]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+6
+bye
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[ryan109@empress forHW8]$ exit
+exit
+
+Script done on Wed 04 May 2022 10:47:20 PM PDT

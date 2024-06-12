@@ -1,0 +1,232 @@
+Script started on Wed 04 May 2022 10:23:24 PM PDT
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[?1034h[ryan109@empress forHW8]$ exmore newout.tx[9P./a.oug++ *.cpp
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[ryan109@empress forHW8]$ g++ *.cp[5Pexmore newout.tx[9P./a.out
+After some thinking about what I wanted this app to be focused around, I thought of using it
+as a tool for my current workplace. I work for a Hyatt hotel here in Carlsbad. Hyatt is a massive hospitality corperation
+with hundreds of properties all aroud the world. Each property, like mine, has hundreds of employees with
+with a large selection of departments and positions. Though on a much smaller scale, this app poses
+as a tool giving the user the ability to view, search, add, or delete employees based off of their assigned key.
+The stored data includes the employees key, last name, department, and their golbal ID, which Hyatts actually use to identify
+their employess. **DISCLAIMER: THE GLOBAL ID'S ARE NOT REAL ID'S. THEY ARE JUST EXAMPLES**
+
+What is the input file? (.txt file)myinput.txt
+0:[empty]
+1:[empty]
+2:[empty]
+3:[ 3 Cassell Bar_Tender 1169037 ]
+4:[empty]
+5:[empty]
+6:[empty]
+7:[empty]
+8:[ 8 Renelle Hostess 8930275 ]
+9:[empty]
+10:[ 10 Gomez Director_of_Rooms 1112333 ]
+11:[empty]
+12:[ 12 Ryan Valet 1441468 ]
+13:[empty]
+14:[empty]
+15:[ 15 Zent Front_Office_Manager 9871236 ]
+16:[empty]
+17:[ 17 Smith Bell_Captain 4578392 ]
+18:[empty]
+19:[empty]
+20:[ 20 Jones Guest_Services 9876543 ]
+21:[empty]
+22:[empty]
+23:[empty]
+24:[empty]
+25:[ 25 McCleary Security_Supervisor 1928374 ]
+26:[ 26 Jacobsen Waitress 9753842 ]
+27:[empty]
+28:[empty]
+29:[empty]
+30:[empty]
+31:[empty]
+32:[empty]
+33:[ 33 Yoshii Front_Desk 1234567 ]
+34:[empty]
+35:[empty]
+36:[empty]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add?
+KenyDi82
+What is the last name?
+Diaz
+What is the department name? (if two words, seperate with '_')
+Concierge
+What is the 7-digit Global ID number?
+4406929
+Added the element in slot 8
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add?
+84
+What is the last name?
+Fitzgerald
+What is the department name? (if two words, seperate with '_')
+Golf_Intructsreuctuctstructor
+What is the 7-digit Global ID number?
+1339582
+Added the element in slot 10
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add?
+22
+What is the last name?
+Shasta
+What is the department name? (if two words, seperate with '_')
+Waitress
+What is the 7-digit Global ID number?
+4387124
+Added the element in slot 22
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 10
+Found this:
+10 Gomez Director_of_Rooms 1112333
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 82
+Found this:
+82 Diaz Concierge 4406929
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 33
+Found this:
+33 Yoshii Front_Desk 1234567
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 25
+Found it and deleted it from slot:25
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 20
+Found it and deleted it from slot:20
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 17
+Found it and deleted it from slot:17
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[empty]
+1:[empty]
+2:[empty]
+3:[ 3 Cassell Bar_Tender 1169037 ]
+4:[empty]
+5:[empty]
+6:[empty]
+7:[empty]
+8:[ 8 Renelle Hostess 8930275 82 Diaz Concierge 4406929 ]
+9:[empty]
+10:[ 10 Gomez Director_of_Rooms 1112333 84 Fitzgerald Golf_Instructor 1339582 ]
+11:[empty]
+12:[ 12 Ryan Valet 1441468 ]
+13:[empty]
+14:[empty]
+15:[ 15 Zent Front_Office_Manager 9871236 ]
+16:[empty]
+17:[empty]
+18:[empty]
+19:[empty]
+20:[empty]
+21:[empty]
+22:[ 22 Shasta Waitress 4387124 ]
+23:[empty]
+24:[empty]
+25:[empty]
+26:[ 26 Jacobsen Waitress 9753842 ]
+27:[empty]
+28:[empty]
+29:[empty]
+30:[empty]
+31:[empty]
+32:[empty]
+33:[ 33 Yoshii Front_Desk 1234567 ]
+34:[empty]
+35:[empty]
+36:[empty]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+5
+Saved the updated table in newout.txt
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+6
+bye
+]0;ryan109@empress:~/cs311files/cs311files/CS311Progs/HWPrograms/forHW8[ryan109@empress forHW8]$ exit
+exit
+
+Script done on Wed 04 May 2022 10:29:36 PM PDT
